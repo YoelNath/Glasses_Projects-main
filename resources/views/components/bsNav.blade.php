@@ -88,12 +88,12 @@
        
 
 
-      <button  class="btn btn-dark" type="button" data-bs-toggle="modal" data-bs-target="#sub-modal">
-        Subscribe
+<a href="/cart">
+      <button class="btn btn-outline-success fa fa-shopping-cart"  type="button" data-bs-toggle="modal" data-bs-target="#sub-modal">
       </button>
-      
+    </a>
  
-      <div class="modal fade" id="sub-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+      {{-- <div class="modal fade" id="sub-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-top">
           <div class="modal-content modal-custom rounded-4 p-3">
       
@@ -112,7 +112,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> --}}
       
       
 
@@ -132,10 +132,10 @@
                   <a class="nav-link" href="/menglasses ">Glasses</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Topics & Tags</a>
+                  <a class="nav-link" href="#">About</a>
                 </li>
              
-                <li class="nav-item dropdown">
+                {{-- <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown-menu" aria-expanded="tr">
                     More
                   </a>
@@ -144,7 +144,7 @@
                     <li><a class="dropdown-item" href="#">Another action</a></li>
                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                   </ul>
-                </li>
+                </li> --}}
              
             </div>
           </div>

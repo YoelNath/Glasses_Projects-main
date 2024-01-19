@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\CartController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+Route::get('/cart', [CartController::class, 'index']);
+Route::post('/cart/update', [CartController::class, 'update']);
 Route::get('/', function () {
     return view('index');
 });
@@ -29,10 +32,6 @@ Route::get('/categories', function () {
 
 Route::get('/menglasses', function () {
     return view('menglasses');
-});
-
-Route::get('/categories', function () {
-    return view('categories');
 });
 
 Route::get('/oneitem', function () {

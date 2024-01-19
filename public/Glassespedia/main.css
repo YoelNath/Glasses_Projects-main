@@ -6,7 +6,7 @@
   }
   
   body {
-    background-color: #050505;
+    background-color: #000000;
   }
   .navbar.navbar-expand-lg {
     background-color: #171717;
@@ -44,10 +44,16 @@
     background-color: #0a0a0a00;
     border: 0;
   }
-  .card-body {
-    color: white;
+  .img-big{
+    max-width: 700px;
   }
+
   
+  .text-custom{
+   
+    background-color: #1f1f1f;
+    color: #ffffff;
+  }
   .footer-bg {
     background-color: #121212;
   }
@@ -192,7 +198,7 @@
     color: #ffffff;
     transition: color 0.3s;
     font-size: 18px;
-    font-family: "Lucida Handwriting";
+    font-family: "inerta";
   }
   
   .custom-card {
@@ -242,6 +248,7 @@
     max-height: 109px;
   }
   .text-diff p {
+    color: white;
     font-size: 13px;
   }
   .img-card {
