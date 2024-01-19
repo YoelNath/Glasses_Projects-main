@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;   
+}
+
+:root{
+    --body-color: #e4e9f7;
+    --nav-color: #1C5253;
+    --side-nav: #010718;
+    --text-color: #fff;
+    --search-bar: #f2f2f2;
+    --search-text: #010718;
+}
+
+/* Men Fashion Section */
+.most-popular, .latest-product{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    gap: 2rem;
+}
+
+.title-text h2{
+    color: #111;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.row{
+    position: relative;
+    transition: all .40s;
+    margin-bottom: 50px;
+}
+
+.row img{
+    margin-top: 10px;
+    width: 99%;
+    height: 500px;
+    transition: all .40s;
+}
+
+.row img:hover{
+    transform: scale(0.9);
+}
+
+.product-text h5{
+    margin-top: 15px;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #26B947;
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+
+.heart-icon{
+    margin-right: 1.5px;
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+}
+
+.heart-icon:hover{
+    color: red;
+}
+
+.rating i{
+    color: #ff8c00;
+    font-size: 18px;
+}
+
+.price h4{
+    color: #111;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.price p{
+    color: #151515;
+    font-size: 14px;
+    font-weight: 600;
+}

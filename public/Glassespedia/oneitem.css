@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --body-color: #e4e9f7;
+    --nav-color: #1C5253;
+    --side-nav: #010718;
+    --text-color: #fff;
+    --search-bar: #f2f2f2;
+    --search-text: #010718;
+}
+
+/* Main Image */
+
+aside .main-image img{
+    height: 500px;
+    width: 27%;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+/* Share Social Media */
+aside .socials{
+    margin-left: 10px;
+}
+
+aside .socials p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+aside .socials p a{
+    background-color: red;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+aside .socials p a:nth-child(1){
+    color: #4267B2;
+    background: white;
+}
+
+/* article .socials p a:nth-child(1):hover{
+    color: #4267B2;
+    background: white;
+} */
+
+aside .socials p a:nth-child(2){
+    color: #1DA1F2;
+    background: white;
+}
+
+aside .socials p a:nth-child(3){
+    color: #E1306C;
+    background: white;
+}
+
+aside .socials p a:nth-child(4){
+    color: #25D366;
+    background: white;
+}
+
+aside .heart-icon{
+    display: flex;
+    margin-left: 10px;
+}
+
+aside .heart-icon h3{
+    font-size: 20px;
+}
+
+aside .heart-icon i{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+aside .heart-icon i:hover{
+    color: red;
+}
+
+aside .heart-icon p{
+    margin-top: -1px;
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* Bar */
+hr{
+    border: 5px solid #eae6e6
+}
+
+/* Deskripsi produk */
+main{
+    float: right;
+}
+
+main p a{
+    text-decoration: none;
+}
+
+main h4{
+    margin-top: -600px;
+    font-weight: 600;
+    margin-right: 200px;
+}
+
+main .rating i{
+    color: #ff8c00;
+    font-size: 28px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+main p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+main h3{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+main h3 span{
+    color: red;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.quantity{
+    display: flex;
+    height: 50px;
+    max-width: 300px;
+    background: #f2f2f2;
+    border-radius: 8px;
+    margin-left: 190px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.quantity span{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.quantity p{
+    font-size: 35px;
+    margin-bottom: 7px;
+    margin-right: 5px;
+    color: var(--nav-color);
+}
+
+.quantity span .num{
+    pointer-events: none;
+}
+
+/* Tombol beli */
+main .add-cart{
+    float: left;
+    margin-left: 150px;
+    margin-top: -140px;
+}
+
+main .add-cart a button{
+    background: white;
+    width: 190px;
+    height: 60px;
+    color: var(--nav-color);
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    border: 2px solid var(--nav-color);
+    transition: .5s;
+}
+
+/**/
+.spec-product h2{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.spec-product p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.desc-product h2{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.desc-product p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    max-width: 900px;
+} 

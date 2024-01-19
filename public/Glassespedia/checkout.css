@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --body-color: #e4e9f7;
+    --nav-color: #1C5253;
+    --side-nav: #010718;
+    --text-color: #fff;
+    --search-bar: #f2f2f2;
+    --search-text: #010718;
+}
+
+/* Produk yang dibeli */
+.product{
+    display: flex;
+}
+
+.product img{
+    height: 21%;
+    width: 10%;
+    margin-left: 50px;
+}
+
+.product p{
+    margin-top: 65px;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+/* Metode Pembayaran */
+.payment h3{
+    color: var(--nav-color);
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.payment-menu{
+    width: 380px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.payment-menu .payment-btn{
+    display: flex;
+    height: 35px;
+    background: white;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 0 0 5px var(--nav-color);
+}
+
+.payment-btn i{
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.payment-menu.active .payment-btn i{
+    transform: rotate(-180deg);
+}
+
+.payment-menu .options{
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 0 3px var(--nav-color);
+    display: none;
+}
+
+.payment-menu.active .options{
+    display: block;
+}
+
+.options .option{
+    display: flex;
+    height: 45px;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0 16px;
+    background: #fff;
+}
+
+.options .option:hover{
+    background: #f2f2f2;
+}
+
+.option i{
+    font-size: 25px;
+    margin-right: 12px;
+}
+
+/* Jenis Ongkir  */
+.ongkir h3{
+    color: var(--nav-color);
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.ongkir-menu{
+    width: 380px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.ongkir-menu .ongkir-btn{
+    display: flex;
+    height: 35px;
+    background: white;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 0 0 5px var(--nav-color);
+}
+
+.ongkir-btn i{
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.ongkir-menu.active .ongkir-btn i{
+    transform: rotate(-180deg);
+}
+
+.ongkir-menu .opsi{
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 0 3px var(--nav-color);
+    display: none;
+}
+
+.ongkir-menu.active .opsi{
+    display: block;
+}
+
+.opsi .opt{
+    display: flex;
+    height: 35px;
+    cursor: pointer;
+    padding: 0 16px;
+    border-radius: 8px;
+    align-items: center;
+    background: white;
+}
+
+.opsi .opt:hover{
+    background: #f2f2f2;
+}
+
+.opt i{
+    font-size: 25px;
+    margin-right: 12px;
+}
+
+.opt .opt-text{
+    font-size: 18px;
+    color: #333;
+}
+
+
+/* Alamat dan Biodata */
+/* .address h3{
+    color: var(--nav-color);
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.address p{
+    margin-left: 50px;
+    font-size: 20px;
+} */
+
+/* Detail Pembayaran */
+.detail h3{
+    color: var(--nav-color);
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.admin{
+    display: flex;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.admin p{
+    margin-left: 900px;
+}
+
+.bongkir{
+    display: flex;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.bongkir p{
+    margin-left: 900px;
+}
+
+.total{
+    display: flex;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.total h5{
+    color: var(--nav-color);
+}
+
+.total p{
+    margin-left: 975px;
+    color: var(--nav-color);
+}
+
+/* Tombol */
+.bar hr{
+    border: 5px solid #eae6e6
+}
+
+.cek-button{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 1040px;
+}
+
+.cek-button a button{
+    background: var(--nav-color);
+    width: 150px;
+    height: 60px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    border: 2px solid var(--nav-color);
+    transition: .5s;
+}
+
+.cek-button a button:hover{
+    transform: scale(.9);
+    opacity: 0.7;
+}
+
+/* Iklan */
+.ads-image img{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 190px;
+}

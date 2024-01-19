@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --body-color: #e4e9f7;
+    --nav-color: #1C5253;
+    --side-nav: #010718;
+    --text-color: #fff;
+    --search-bar: #f2f2f2;
+    --search-text: #010718;
+}
+
+
+
+.sections{
+    background-color: white;
+}
+
+.sections:nth-child(1){
+    width: 100px;
+}
+
+.sections:nth-child(1) input{
+    height: 40px;
+    width: 40px;
+    grid-column-gap: 40px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.sections:nth-child(1) input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 2px solid #ccc;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+
+.sections:nth-child(1) input[type="checkbox"]:checked {
+    background-color: var(--nav-color);
+    border-color: #2ecc71;
+}
+
+.sections:nth-child(2) a i{
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Produk */
+.cek-barang{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Divides the container into 5 equal columns */
+    grid-gap: 10px; /* Default gap between sections */
+}
+
+.section{
+    background-color: white;
+}
+
+/* Checkbox */
+.section:nth-child(1){
+    width: 100px;
+}
+
+.section:nth-child(1) input{
+    height: 40px;
+    width: 40px;
+    grid-column-gap: 40px;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+
+.section:nth-child(1) input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 2px solid #ccc;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+
+.section:nth-child(1) input[type="checkbox"]:checked {
+    background-color: var(--nav-color);
+    border-color: #2ecc71;
+}
+
+
+/* Gambar Produk */
+.section:nth-child(2) {
+    grid-column-gap: 4px; /* Custom gap for the second section */
+}
+
+.section:nth-child(2) img{
+    height: 200px;
+    width: 200px;
+    padding-left: -70px;
+    margin-top: 30px;
+}
+
+/* Nama Produk */
+.section:nth-child(3) p{
+    padding-top: 100px;
+    font-weight: 700;
+}
+
+/* Kuantitas */
+.section:nth-child(4){
+    display: flex;
+    height: 50px;
+    max-width: 200px;
+    background: #f2f2f2;
+    border-radius: 8px;
+    margin-top: 82px;
+    /* margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 40px; */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.section:nth-child(4) span{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.section:nth-child(4) p{
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    margin-right: 5px;
+    color: var(--nav-color);
+}
+
+.section:nth-child(4) span .num{
+    pointer-events: none;
+}
+
+/* Hapus */
+.section:nth-child(5) a i{
+    padding-top: 100px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+}
+
+.section:nth-child(5) a i:hover{
+    padding-top: 100px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+}
+
+/* Tombol */
+.bar hr{
+    border: 5px solid #eae6e6
+}
+
+.cek-button{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 1020px;
+}
+
+.cek-button a button{
+    background: var(--nav-color);
+    width: 150px;
+    height: 60px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    border: 2px solid var(--nav-color);
+    transition: .5s;
+}
+
+.cek-button a button:hover{
+    transform: scale(.9);
+    opacity: 0.7;
+}
+
+/* Iklan */
+.ads-image img{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 15%;
+
+}
+
